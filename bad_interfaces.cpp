@@ -1,4 +1,4 @@
-// Fahrudin Halilovic
+// Fahrudin Halilovic 
 
 #include <iostream>
 
@@ -32,10 +32,10 @@ struct Rectangle
 int main()
 {
     std::cout << "Area: " << calculateArea(0, 10, 5, 0) << std::endl;
-    Point top_left = {0, 10};
-    Point bottom_right = {5, 0};
+    Point top_left {0, 10};
+    Point bottom_right {5, 0};
     std::cout << "Area: " << calculateArea(top_left, bottom_right) << std::endl;
-    Rectangle rect = {{0, 10}, {5, 0}};
+    Rectangle rect {{0, 10}, {5, 0}};
     std::cout << "Area: " << rect.calculateArea() << std::endl;
     return 0;
 }
